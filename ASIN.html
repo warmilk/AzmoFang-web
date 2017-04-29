@@ -90,12 +90,12 @@
 							<div class="dropdown">
 								<button class="dropdown-btn plsc-btn"><span>批量删除<i class="triangel"></i></span></button>
 								<ul class="dropdown-meau" style="display: none;">
-									<li class="dropdown-meau-item">批量删除</li>
-									<li class="dropdown-meau-item">批量删除</li>
-									<li class="dropdown-meau-item">批量删除</li>
-									<li class="dropdown-meau-item">批量删除</li>
-									<li class="dropdown-meau-item">批量删除</li>
-									<li class="dropdown-meau-item">批量删除</li>
+									<li class="dropdown-meau-item">批量删除1</li>
+									<li class="dropdown-meau-item">批量删除2</li>
+									<li class="dropdown-meau-item">批量删除3</li>
+									<li class="dropdown-meau-item">批量删除4</li>
+									<li class="dropdown-meau-item">批量删除5</li>
+									<li class="dropdown-meau-item">批量删除6</li>
 								</ul>
 							</div>
 						</li>
@@ -103,12 +103,12 @@
 							<div class="dropdown">
 								<button class="dropdown-btn pljk-btn"><span>评论监控<i class="triangel"></i></span></button>
 								<ul class="dropdown-meau" style="display: none;">
-									<li class="dropdown-meau-item">评论监控</li>
-									<li class="dropdown-meau-item">评论监控</li>
-									<li class="dropdown-meau-item">评论监控</li>
-									<li class="dropdown-meau-item">评论监控</li>
-									<li class="dropdown-meau-item">评论监控</li>
-									<li class="dropdown-meau-item">评论监控</li>
+									<li class="dropdown-meau-item">评论监控1</li>
+									<li class="dropdown-meau-item">评论监控2</li>
+									<li class="dropdown-meau-item">评论监控3</li>
+									<li class="dropdown-meau-item">评论监控4</li>
+									<li class="dropdown-meau-item">评论监控5</li>
+									<li class="dropdown-meau-item">评论监控6</li>
 								</ul>
 							</div>
 						</li>
@@ -116,7 +116,9 @@
 							<button class="tjasin-btn">添加ASIN</button>
 						</li>
 					</ul>
+					
 
+					<!-- page1的表格 -->
 					<table class="result_page result_page1">
 						<thead>
 							<tr>
@@ -136,6 +138,29 @@
 						</tbody>
 					</table>
 
+
+					<!-- page2的表格 -->
+					<table class="result_page result_page2" style="display: none;">
+						<thead>
+							<tr>
+								<th><input type="checkbox" class="trCheckbox"></th><th>图片</th><th>产品信息</th><th>功能</th><th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="choose"><input type="checkbox" class="trCheckbox"></td><td class="product_pic"><div></div></td><td class="product_info"><p>BOVKE Hard EVA shockproof protective carrying case storage travel bag for western Digital WD My Book Desktop, seagate backup plus Desktop External Hard Drive USB 3.0, 2TB 3TB 4TB 5TB 6TB 8TB, Black</p><p>ASIN&nbsp;:&nbsp;<a href="#">B01HAPGEIE</a></p></td><td class="product_feature">未加入</td><td class="product_operate"><button class="product-delBtn"></button><input type="checkbox" class="monitorCheckbox"></td>
+							</tr>
+							<tr>
+								<td class="choose"><input type="checkbox" class="trCheckbox"></td><td class="product_pic"><div></div></td><td class="product_info"><p>WD 6TB My Book Desktop External Hard Drive WDBBGB0060HBK-NESN WDBBGB0060HBK-NESN</p><p>ASIN&nbsp;:&nbsp;<a href="#">B01LQQHKZY</a></p></td><td class="product_feature">未加入</td><td class="product_operate"><button class="product-delBtn"></button><input type="checkbox" class="monitorCheckbox"></td>
+							</tr>
+							<tr>
+								<td class="choose"><input type="checkbox" class="trCheckbox"></td><td class="product_pic"><div></div></td><td class="product_info"><p>Seagate Expansion 5TB Desktop External Hard Drive USB 3.0 (STEB5000100)</p><p>ASIN&nbsp;:&nbsp;<a href="#">B01HAPGEIE</a></p></td><td class="product_feature">未加入</td><td class="product_operate"><button class="product-delBtn"></button><input type="checkbox" class="monitorCheckbox"></td>
+							</tr>
+						</tbody>
+					</table>
+
+
+
 					<p class="result_count-Describe">查询结果：（<span>1</span>/<span>1</span>页&nbsp;共<span>1</span>条&nbsp;每页<span>10</span>条）</p>
 					
 
@@ -149,11 +174,11 @@
 					        <li class="page-item">
 					            <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&lt;</span></a>
 					        </li>
-					        <li class="page-item current-page-item"><a class="page-link" href="#">1</a></li>
-					        <li class="page-item"><a class="page-link" href="#">2</a></li>
-					        <li class="page-item"><a class="page-link" href="#">3</a></li>
-					        <li class="page-item"><a class="page-link" href="#">4</a></li>
-					        <li class="page-item"><a class="page-link" href="#">5</a></li>
+					        <li class="page-item page-item-num current-page-item"><a class="page-link" href="#">1</a></li>
+					        <li class="page-item page-item-num"><a class="page-link" href="#">2</a></li>
+					        <li class="page-item page-item-num"><a class="page-link" href="#">3</a></li>
+					        <li class="page-item page-item-num"><a class="page-link" href="#">4</a></li>
+					        <li class="page-item page-item-num"><a class="page-link" href="#">5</a></li>
 					        <li class="page-item">
 					            <a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&gt;</span></a>
 					        </li>
@@ -248,7 +273,7 @@
 		});
 	</script>
 
-	<!-- 点击下弹菜单按钮 -->
+	<!-- 点击菜单按钮 -->
 	<script>
 	// $(".dropdown-btn").click(function(){
 	// 	if($(".dropdown-meau").css("display")=="none"){
@@ -259,6 +284,7 @@
 	// 	}
 	// });
 	$(document).ready(function (){
+		/*下弹菜单*/
 	   $(".dropdown-btn").each(function(index){
 		    $(this).click(function(){ 
 		    	if($(".dropdown-meau").eq(index).css("display")=="none"){
@@ -266,17 +292,14 @@
 		    		$(".dropdown-meau").eq(index).mouseleave(function () {
 		    			$(".dropdown-meau").eq(index).hide();
 		    		});
-
-		    		
-		    		
-		    	}
+ 		    	}
 		    	else{
 		    		$(".dropdown-meau").eq(index).hide();
 		    	}
 
 		    	$(".dropdown-meau-item").each(function (itemIndex) {
 		    		$(this).click(function () {
-		    			$(".dropdown-btn").eq(index).html('<span>'+$(".dropdown-meau-item").eq(itemIndex).html()+'<i class="triangel"></i></span>');
+		    			$(this).parent().siblings().html('<span>'+$(".dropdown-meau-item").eq(itemIndex).html()+'<i class="triangel"></i></span>');
 		    		});
 		    	});
 
@@ -284,21 +307,27 @@
 		    });
 	    });
 
-	      $(".dropup-btn").each(function(index){
-	   	    $(this).click(function(){ 
-	   	    	if($(".dropup-meau").eq(index).css("display")=="none"){
-	   	    		$(".dropup-meau").eq(index).show();
-	   	    		$(".dropup-meau").eq(index).mouseleave(function () {
-	   	    			$(".dropup-meau").eq(index).hide();
-	   	    		});
-	   	    	}
-	   	    	else{
-	   	    		$(".dropup-meau").eq(index).hide();
-	   	    	}
-	   	    	
-	   	    });
-	       });
-	 });
+	   /*上弹菜单*/
+      $(".dropup-btn").each(function(index){
+   	    $(this).click(function(){ 
+   	    	if($(".dropup-meau").eq(index).css("display")=="none"){
+   	    		$(".dropup-meau").eq(index).show();
+   	    		$(".dropup-meau").eq(index).mouseleave(function () {
+   	    			$(".dropup-meau").eq(index).hide();
+   	    		});
+   	    	}
+   	    	else{
+   	    		$(".dropup-meau").eq(index).hide();
+   	    	}
+   	    	$(".dropup-meau-item").each(function (itemIndex) {
+   	    		$(this).click(function () {
+   	    			$(this).parent().siblings().html('<span>'+$(".dropup-meau-item").eq(itemIndex).html()+'<i class="triangel"></i></span>');
+   	    		});
+   	    	});
+
+   	    });
+       });
+    });
 
 	// $(".dropdown-menu").each(function (index) {
 	// 	$(this).mouseleave(function () {
@@ -311,8 +340,22 @@
 	// });
 	</script>
 	
-
 	
+
+	<!-- 点击分页条12345页码按钮 -->
+	<script type="text/javascript">
+		$(document).ready(function (){
+		   $(".page-item-num").each(function(index){
+			    $(this).click(function(){  
+				    $(".page-item-num").removeClass("current-page-item");
+				    $(".page-item-num").eq(index).addClass("current-page-item");
+			    });
+		    });
+		 });
+
+		/*可以动态获取总共的页码数，比如一共8页，那那5个页码按钮的数字可以动态变化为45678（如果他当前在第6页的话），
+		并且将“直接去到最后一页”的按钮的样式变为禁用状态*/
+	</script>
 </body>
 </html>
 
