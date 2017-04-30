@@ -279,7 +279,7 @@
     position: absolute;
     top:1em;
     
-/*     多行文本溢出显示省略号 */
+/*     多行文本溢出显示省略号 */                       /*===============================   bug =================================*/
     overflow : hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
